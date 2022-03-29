@@ -17,7 +17,7 @@ export default function Home() {
 	return (
 		<IconContext.Provider value={new IconService()}>
 			<IconProvider />
-			<h1>Let's load some icons</h1>
+			<h1>Let&apos;s load some icons</h1>
 			<h2>Three icons, one source</h2>
 			<div style={{ width: "32px" }}>
 				<HamburgerIcon />
@@ -27,7 +27,7 @@ export default function Home() {
 				</div>
 			</div>
 			<h1>And one async</h1>
-			<h2>Notice it's split automatically in the network tab</h2>
+			<h2>Notice it&apos;s split automatically in the network tab</h2>
 			<Suspense fallback={<p>Loading...</p>}>
 				{showExample && <ExampleComponent />}
 			</Suspense>
